@@ -1,7 +1,7 @@
 import os  
 
-path = '/home/orise/Desktop/paper/Q5 - 05'  
-new_path = '/home/orise/Desktop/Q5'  
+path = 'files path'  
+new_path = 'new files path'  
 
 files = os.listdir(path)  
 print(files)

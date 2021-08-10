@@ -2,7 +2,7 @@ import os
 from PyPDF2 import PdfFileMerger, PdfFileReader
 import sys
 
-path = '/home/orise/Desktop/Q1/'
+path = 'files path'
 
 files = os.listdir(path)
 
@@ -18,7 +18,7 @@ for f in files:
         warnings.simplefilter("ignore")	
     print(f)
 
-# mergedObject.write("/home/orise/Desktop/mergedfilesoutput.pdf")
+# mergedObject.write("new files path/mergedfilesoutput.pdf")
 
 
 
